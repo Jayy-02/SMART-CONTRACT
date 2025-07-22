@@ -26,17 +26,25 @@ const config: HardhatUserConfig = {
       chainId: 11155111,
     },
     CoreDAO: {
-      gasPrice: 1000000000,
-      gas: 2100000,
-      minGasPrice: 1000000000,
-      // maxFeePerGas: 100000000000,
-      url: COREDAO_URL,
+      url: "https://scan.test2.btcs.network/9687468750214c578e7f4992a5870c16",
       accounts: [`0x${PRIVATE_KEY}`],
       chainId: 1114,
     },
   },
   etherscan: {
     apiKey: ETHERSCAN_KEY,
+
+    customChains: [
+      {
+        network: "CoreDAO",
+        chainId: 1114,
+        urls: {
+          apiURL:
+            "https://scan.test2.btcs.network/9687468750214c578e7f4992a5870c16",
+          browserURL: "https://scan.test2.btcs.network",
+        },
+      },
+    ],
   },
 };
 export default config;
