@@ -1,7 +1,7 @@
 #SMART-CONTRACT
 
 HARDHAT:
-#CoreDAO CA: 0xa802e0148f1935c5a6B5862A3B3b276c6947403e (Unable to verify CoreDAO on Hardhat)
+#CoreDAO CA: 0xce6A7D17ccC39013B764CAd2cb84dc617C5104f5 (Unable to verify CoreDAO on Hardhat)
 
 #Sepolia CA: 0x490060a0a9301aC21a9780774F7055129A00c3E9 (contract is verified) at https://sepolia.etherscan.io/address/0x490060a0a9301aC21a9780774F7055129A00c3E9#code
 
