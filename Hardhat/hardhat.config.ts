@@ -26,7 +26,7 @@ const config: HardhatUserConfig = {
       chainId: 11155111,
     },
     CoreDAO: {
-      url: "https://scan.test2.btcs.network/9687468750214c578e7f4992a5870c16",
+      url: "https://rpc.test2.btcs.network",
       accounts: [`0x${PRIVATE_KEY}`],
       chainId: 1114,
     },
